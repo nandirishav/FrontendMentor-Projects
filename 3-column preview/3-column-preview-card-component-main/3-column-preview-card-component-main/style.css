@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    padding: 20px 0 15px 0;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: -1.5px;
+}
+
+p {
+    padding: 20px 0 40px 0;
+    line-height: 1.9;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+    padding-top: 15px;
+}
+
+.card{
+    /* margin-left: 2.5rem; */
+    padding: 20px 60px 50px  60px;    
+    /* border-radius: 7px; */
+}
+
+.card.card-sedans{
+    background-color: hsl(31, 77%, 52%);
+    color: #fff;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+
+.card.card-suvs{
+    background-color: hsl(184, 100%, 22%);
+    color: #fff;
+    border-radius: 0%;
+}
+
+.card.card-luxury{
+    background-color: hsl(179, 100%, 13%);
+    color: #fff;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+button{
+    display: block;
+    background-color: #fff;
+    color: hsl(31, 77%, 52%);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;   
+}
+
+button:hover {
+    background: transparent;
+    color: #fff !important;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+text-decoration: none; 
+font-size: 13px;
+}
+

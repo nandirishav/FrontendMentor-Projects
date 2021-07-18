@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+header{
+    margin: 50px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+    font-weight: 200;
+}
+
+h1.strong{
+    font-weight: 600;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    width: 350px;
+    margin: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
+}
+
+.box-red{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+.box-cyan{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+.box-orange{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+.box-blue{
+    border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.box-push{
+    /* transform: translateY(50%); */
+}
+
+.box h3{
+    margin: 0;
+}
+.box img{
+    display: block;
+    margin-left: auto;
+}
+
+.box p{
+    margin: 15px 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
