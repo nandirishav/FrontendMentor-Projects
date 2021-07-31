@@ -191,36 +191,119 @@ input[type="button"] {
 
 /* container-4 */
 #container-4 {
-    background-color: hsl(243, 87%, 12%);
-    color: #fff;
-    padding: 7% 5%;
+  background-color: hsl(243, 87%, 12%);
+  color: #fff;
+  padding: 7% 5%;
+}
+
+#container-4 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.social-icon {
+  font-size: 15px;
+  border-radius: 80%;
+  border: solid 1px #fff;
+  margin: 0 3px;
+  padding: 8px;
+  justify-content: center;
+}
+
+.logo-bottom {
+  filter: brightness(0) invert(1);
+  margin-bottom: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .logo img {
+    width: 100%;
   }
-  
-  #container-4 a {
-    text-decoration: none;
-    color: #fff;
+  .nav-items {
+    margin: 0;
+    padding: 0 10px;
   }
-  
-  .icons {
-    margin-right: 20px;
+  .intro-container {
+    width: 100%;
+    display: block;
   }
-  
-  .social-icon {
-    font-size: 15px;
-    border-radius: 80%;
-    border: solid 1px #fff;
-    margin: 0 3px;
-    padding: 8px;
-    justify-content: center;
+  .illustration-one,
+  .illustration-2 {
+    padding: 30px 0;
+    height: auto;
+    width: 100%;
+    margin: auto;
   }
-  
-  .logo-bottom {
-    filter: brightness(0) invert(1);
-    margin-bottom: 10px;
+  .intro-text {
+    width: 100%;
+    text-align: center;
   }
-  
+  .btn-email {
+    width: 95%;
+  }
+  input[type="button"] {
+    width: 80%;
+  }
+  #container-2 {
+    background-image: url("./images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .btn-getstarted2 {
+    width: 83%;
+  }
+  .contents {
+    width: 100%;
+    display: block;
+  }
+  .content-des {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .founder {
+    text-align: left;
+    margin: 50px auto 70px;
+    width: 80%;
+  }
+  #container-3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px 5px;
+  }
+  .part-1,
+  .part-2 {
+    width: 100%;
+    margin: auto;
+  }
   .bottom {
-    display: flex;
-    justify-content: space-between;
+    display: block;
   }
-  
+
+  #container-4 {
+    padding: 50px 20px;
+  }
+
+  .call-1,
+  .call-2,
+  .call-3,
+  .call-4 {
+    margin: 50px 0;
+  }
+
+  .call-4 {
+    text-align: center;
+    margin: auto;
+  }
+}
