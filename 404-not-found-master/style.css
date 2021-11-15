@@ -1,0 +1,117 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+p {
+  display: inline;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.container {
+  padding: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.center-image {
+  margin: 4rem auto;
+  margin-bottom: 2rem;
+}
+
+.scarecrow {
+  width: 20rem;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  width: 350px;
+  font-size: 30px;
+}
+
+.first,
+.second {
+  font-size: 2rem;
+  word-spacing: 1.5rem;
+  color: rgb(66, 64, 64);
+  font-weight: 700;
+}
+
+.description {
+  margin-top: 0.7rem;
+  width: 300px;
+  word-spacing: 1.2rem;
+}
+
+.description p {
+  line-height: 1.6rem;
+}
+
+.home-button {
+  background-color: rgb(58, 53, 53);
+  color: whitesmoke;
+  padding: 20px 25px;
+  width: 200px;
+  margin-top: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .center-image {
+    margin: 8rem 0;
+    flex: 1;
+  }
+  .right {
+    flex: 1;
+    margin: auto 1.5rem;
+  }
+  .scarecrow {
+    width: 28rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  .center-image {
+    margin: 8rem 0;
+    flex: 1;
+  }
+  .right {
+    flex: 1;
+    margin: auto 3rem;
+  }
+  .scarecrow {
+    width: 32rem;
+  }
+  .description {
+    width: 380px;
+  }
+}
