@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+}
+
+.item {
+  margin-top: 1rem;
+  width: 450px;
+  height: 250px;
+}
+.dining {
+  color: #f2994a;
+  width: 13px;
+  height: 13px;
+}
+
+.servings,
+.duration {
+  display: flex;
+  align-items: center;
+}
+
+.yields,
+.time {
+  margin-left: 1rem;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.duration-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.ingredients-container {
+  margin: 2rem 0;
+}
+
+.step-name {
+  font-weight: 500;
+}
+
+.item-name {
+  font-style: italic;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.step-desc {
+  margin-left: 1rem;
+  font-size: 12px;
+}
+
+.number {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background-color: #f2994a;
+}
+
+.footer {
+  width: 100%;
+  font-size: 14px;
+  color: #828282;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: blueviolet;
+}
