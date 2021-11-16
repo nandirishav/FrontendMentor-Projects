@@ -33,6 +33,10 @@ body {
   height: 13px;
 }
 
+.gray {
+  color: #ada8a8;
+}
+
 .servings,
 .duration {
   display: flex;
