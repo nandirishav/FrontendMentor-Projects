@@ -140,10 +140,10 @@ body {
     width: 550px;
   }
   .item {
-    width: 50rem;
+    width: 70rem;
   }
   .main-container {
-    width: 800px;
+    width: 70rem;
     display: flex;
     flex-direction: row-reverse;
   }
